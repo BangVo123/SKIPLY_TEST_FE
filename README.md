@@ -1,8 +1,15 @@
-# React + Vite
+### Struct of project
+- public: Include image public for accessing in this project
+- src: Include source of this porject
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  In src dir will include
+  - assests: Has global.css file, was generated when create this project
+  - components: Include some component can use many time in many where
+  - constants: Declare constants content for rendering
+  - helpers: Define some method or func use to check or verify soemthing
+  - icons: Include all icon, which use in this porject
+  - pages: Page in this project
+  - routes: Define route for this porject
+ 
+  To run this project, you only install all needed package by ```npm i``` and run this project using ```npm run dev```
+  
