@@ -1,0 +1,20 @@
+.wrapper {
+  & .overlay {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & .content {
+      padding: 20px 30px;
+      border-radius: 4px;
+      background-color: #303c44;
+      opacity: 0.8;
+    }
+  }
+}

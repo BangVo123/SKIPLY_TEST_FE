@@ -1,0 +1,20 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+
+  & .decorator {
+    position: absolute;
+    bottom: 0;
+
+    &.left_decorator {
+      left: 0;
+    }
+
+    &.right_decorator {
+      right: 0;
+    }
+  }
+}
